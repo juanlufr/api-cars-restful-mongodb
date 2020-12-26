@@ -1,7 +1,7 @@
 {
-  "name": "checklist-api",
+  "name": "api-cars-restful-mongodb",
   "version": "1.0.0",
-  "description": "Api Web",
+  "description": "Api Web RESTful template with MongoDB",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon --inspect",
