@@ -80,7 +80,7 @@ Contributions are what make the open source community such an amazing place to b
 
 - Twitter: [@jlfeliper](https://twitter.com/jlfeliper)
 
-- YouTube: (https://youtu.be/YM-OiJpj0po)
+- YouTube videos: (https://youtu.be/YM-OiJpj0po)
 
 <!-- ACKNOWLEDGEMENTS -->
 
