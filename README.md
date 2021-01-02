@@ -18,19 +18,29 @@ Of course you can use your prefer framework or IDE.
 
 This project contains the folowing folders:
 
-1. **Server** - Server folder
+1. **server** - Server folder
+
+   - Server contains two folders; api and config and two files database.js and index.js
+
+  - database.js has all the code to connect and disconnect mongodb db with mongoose
+
+  - index.js has all the code about app.use that exports app
+
+2. **server/api** - Api (with a cars model)
+
+   - api contains the folder cars (api/cars) and index.js that exports router
+
+3. **server/api/cars** - Cars model with the controller, the model and routes
+
+   - controller.js
+   - model.js
+   - routes.js 
+
+4. **server/config** - Controller folder
 
    - Pending description
 
-2. **Server/api** - Api (with a cars model)
-
-   - Pending description
-
-3. **Server/config** - Controller folder
-
-   - Pending description
-
-4. **.gitignore** – git ignore files
+5. **.gitignore** – git ignore files
 
    - refs to the files ignored by git
 
