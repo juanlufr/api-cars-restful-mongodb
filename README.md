@@ -22,9 +22,9 @@ This project contains the folowing folders:
 
    - Server contains two folders; api and config and two files database.js and index.js
 
-  - database.js has all the code to connect and disconnect mongodb db with mongoose
+   - database.js has all the code to connect and disconnect mongodb db with mongoose
 
-  - index.js has all the code about app.use that exports app
+   - index.js has all the code about app.use that exports app
 
 2. **server/api** - Api (with a cars model)
 
