@@ -4,7 +4,7 @@
   "description": "Api Web RESTful template with MongoDB",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --inspect",
+    "dev": "cross-env NODE_ENV=development nodemon --inspect server.js",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "test": "cross-env NODE_ENV=test echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +25,7 @@
     "express-request-id": "^1.4.1",
     "mongoose": "^5.11.6",
     "morgan": "^1.10.0",
+    "mquery": "^3.2.3",
     "strip-final-newline": "^2.0.0",
     "winston": "^3.3.3"
   }

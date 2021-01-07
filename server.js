@@ -1,8 +1,8 @@
 const http = require('http');
 
-const app = require('./server');
-const config = require('./server/config');
-const database = require('./server/database');
+const app = require('./src');
+const config = require('./src/config');
+const database = require('./src/database');
 
 // Connect to database
 database.connect(config.database, {});

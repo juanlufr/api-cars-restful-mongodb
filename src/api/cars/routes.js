@@ -1,4 +1,4 @@
-// server/api/cars/routes.js
+// src/api/cars/routes.js
 
 const router = require('express').Router();
 const controller = require('./controller');
@@ -11,7 +11,9 @@ const controller = require('./controller');
  * /api/cars/:id DELETE - DELETE
  */
 
-router.route('/').post(controller.create).get(controller.all);
+router.route('/')
+  .post(controller.create)
+  .get(controller.all);
 
 router.param('id', controller.id);
 

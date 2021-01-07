@@ -29,14 +29,16 @@ const fields = {
     trim: true,
     maxlenght: 255,
   },
+  /*
   dueDate: {
     type: Date,
     default: null,
   },
+  */
 };
 
-const cars = new Schema(fields, {
+const carsSchema = new Schema(fields, {
   timestamps: true,
 });
 
-module.exports = mongoose.model('cars', cars);
+module.exports = mongoose.model('cars', carsSchema);

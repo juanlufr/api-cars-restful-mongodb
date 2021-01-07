@@ -18,25 +18,25 @@ Of course you can use your prefer framework or IDE.
 
 This project contains the folowing folders:
 
-1. **server** - Server folder
+1. **src** - src folder
 
-   - Server contains two folders; api and config and two files database.js and index.js
+   - Src contains two folders; api and config and two files database.js and index.js
 
    - database.js has all the code to connect and disconnect mongodb db with mongoose
 
    - index.js has all the code about app.use that exports app
 
-2. **server/api** - Api (with a cars model)
+2. **src/api** - Api (with a cars model)
 
    - api contains the folder cars (api/cars) and index.js that exports router
 
-3. **server/api/cars** - Cars model with the controller, the model and routes
+3. **src/api/cars** - Cars model with the controller, the model and routes
 
    - controller.js
    - model.js
    - routes.js 
 
-4. **server/config** - Controller folder
+4. **src/config** - Folder with the configuration data
 
    - Pending description
 

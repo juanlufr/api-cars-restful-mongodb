@@ -31,7 +31,7 @@ exports.create = async (req, res, next) => {
     const doc = await document.save();
     res.status(201);
     res.json({
-      sucess: true,
+      success: true,
       data: doc,
     });
   } catch (err) {
@@ -49,7 +49,7 @@ exports.all = async (req, res, next) => {
     const [docs] = data;
 
     res.json({
-      sucess: true,
+      success: true,
       data: docs,
     });
   } catch (err) {
@@ -61,7 +61,7 @@ exports.read = async (req, res, next) => {
   const { doc = {} } = req;
 
   res.json({
-    sucess: true,
+    success: true,
     data: doc,
   });
 };
@@ -74,7 +74,7 @@ exports.update = async (req, res, next) => {
   try {
     const updated = await doc.save();
     res.json({
-      sucess: true,
+      success: true,
       data: updated,
     });
   } catch (err) {
@@ -88,7 +88,7 @@ exports.delete = async (req, res, next) => {
   try {
     const removed = await doc.remove();
     res.json({
-      sucess: true,
+      success: true,
       data: removed,
     });
   } catch (err) {
