@@ -18,7 +18,7 @@ Of course you can use your prefer framework or IDE.
 
 This project contains the folowing folders:
 
-1. **src** - src folder
+1. **src** - Src folder, this is an example
 
    - Src contains two folders; api and config and two files database.js and index.js
 
