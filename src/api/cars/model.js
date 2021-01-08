@@ -1,4 +1,4 @@
-// server/api/cars/model.js
+// src/api/cars/model.js
 
 const mongoose = require('mongoose');
 

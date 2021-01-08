@@ -1,4 +1,4 @@
-// server/index.js
+// src/index.js
 
 const express = require('express');
 const requestId = require('express-request-id')();
