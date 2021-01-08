@@ -29,12 +29,6 @@ const fields = {
     trim: true,
     maxlenght: 255,
   },
-  /*
-  dueDate: {
-    type: Date,
-    default: null,
-  },
-  */
 };
 
 const carsSchema = new Schema(fields, {
