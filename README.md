@@ -82,7 +82,7 @@ Contributions are what make the open source community such an amazing place to b
 
 - E-mail: juanluis.feliperubio@gmail.com
 
-- Linkedin: https://www.linkedin.com/in/juanluisfelipe/
+- Linkedin: https://linkedin.com/in/juanluisfelipe/
 
 - Spanish Blog: http://juanlucodingbinding.wordpress.com/
 
@@ -90,7 +90,7 @@ Contributions are what make the open source community such an amazing place to b
 
 - Twitter: [@jlfeliper](https://twitter.com/jlfeliper)
 
-- YouTube channel: (https://www.youtube.com/channel/UCicLATfy4S3uPoDATP1uTZA)
+- YouTube channel: (https://youtube.com/channel/UCicLATfy4S3uPoDATP1uTZA)
 
 <!-- ACKNOWLEDGEMENTS -->
 
