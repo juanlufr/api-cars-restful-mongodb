@@ -4,8 +4,8 @@
   "description": "Api Web RESTful template with MongoDB",
   "main": "server.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --inspect server.js",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon --inspect",
+    "start": "cross-env NODE_ENV=production node src/index.js",
     "test": "cross-env NODE_ENV=test echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Luis Felipe Rubio",
