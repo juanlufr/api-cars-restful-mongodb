@@ -1,5 +1,6 @@
 // src/api/cars/controller.js
 
+const { paginationParseParams } = require('../../resources');
 const Model = require('./model');
 
 exports.id = async (req, res, next, id) => {
@@ -40,17 +41,15 @@ exports.create = async (req, res, next) => {
 };
 
 exports.all = async (req, res, next) => {
- 
-  const all = Model.find({});
-  const count = Model.countDocuments();
+const { query = {} } = req;
+const { limit, page } = paginationParseParams(query);
 
   try {
-    const data = await Promise.all([all.exec(), count.exec()]);
-    const [docs] = data;
+    const docs = await Model.paginate({}, {limit, page});
 
     res.json({
       success: true,
-      data: docs,
+      data: docs
     });
   } catch (err) {
     next(new Error(err));

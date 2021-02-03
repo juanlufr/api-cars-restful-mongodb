@@ -1,6 +1,7 @@
 // src/api/cars/model.js
 
 const mongoose = require('mongoose');
+const mongoosePaginate = require('mongoose-paginate-v2');
 
 const { Schema } = mongoose;
 
@@ -34,5 +35,7 @@ const fields = {
 const carsSchema = new Schema(fields, {
   timestamps: true,
 });
+
+carsSchema.plugin(mongoosePaginate);
 
 module.exports = mongoose.model('cars', carsSchema);
