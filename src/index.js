@@ -5,7 +5,7 @@ const requestId = require('express-request-id')();
 const bodyParser = require('body-parser');
 
 const logger = require('./config/logger');
-const api = require('./api');
+const api = require('./api/v1');
 
 // Init app
 const app = express();
@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 
 // Setup router and routes
 app.use('/api', api);
+app.use('/api/v1', api);
 
 // No route found handler
 app.use((req, res, next) => {

@@ -1,4 +1,4 @@
-// src/api/index.js
+// src/api/v1/index.js
 
 const router = require('express').Router();
 

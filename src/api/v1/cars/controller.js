@@ -1,6 +1,6 @@
 // src/api/cars/controller.js
 
-const { paginationParseParams } = require('../../resources');
+const { paginationParseParams } = require('../../../resources');
 const Model = require('./model');
 
 exports.id = async (req, res, next, id) => {
